@@ -1,0 +1,34 @@
+==========
+= FPGA2600 TODO list
+= Sun Apr 24 19:15:24 PDT 2005
+==========
+
+----------
+- RIOT
+----------
+   Code complete and tested.
+
+----------
+- testrom
+----------
+   Code complete but untested.
+
+----------
+- TIA
+----------
+   Code complete but untested.
+
+----------
+- 6502/6507
+----------
+   (requires VHDL knowledge)
+   Review T65 from opencores.org
+   Identify unimplemented undocumented opcodes
+   Identify other changes which may be needed
+
+----------
+- MARIA
+----------
+   (requires VHDL knowledge)
+   Look at docs
+   Begin implementation
