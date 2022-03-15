@@ -20,8 +20,7 @@
 -- Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 --
 -- The author may be contacted
--- by email: adam@cuddlepuddle.org
--- by snailmail: Adam Wozniak, 1352 Fourteenth St, Los Osos, CA 93402
+-- by email: adam@wozniakconsulting.com
 
 library ieee;
 use ieee.std_logic_1164.all;

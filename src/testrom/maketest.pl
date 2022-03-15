@@ -22,8 +22,7 @@
 ## Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 ##
 ## The author may be contacted
-## by email: adam@cuddlepuddle.org
-## by snailmail: Adam Wozniak, 1352 - 14th Street, Los Osos, CA 93402
+## by email: adam@wozniakconsulting.com
 
 ## run as
 ## maketest.pl whatever.bin > whatever.vhdl
