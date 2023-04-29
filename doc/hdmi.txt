@@ -1,0 +1,126 @@
+User
+
+is it possible to produce hdmi output from any of the ATSAM devices?
+
+ChatGPT
+
+The ATSAM family of microcontrollers do not have built-in HDMI output
+capabilities. However, it may be possible to interface an ATSAM
+microcontroller with an external HDMI transmitter IC to achieve HDMI
+output.
+
+There are HDMI transmitter ICs available on the market that can be
+interfaced with microcontrollers such as ATSAM devices to generate HDMI
+output. These ICs typically require a set of digital and analog signals
+to be provided by the microcontroller to generate the HDMI output signal.
+
+The specific interface and implementation will depend on the particular
+ATSAM device and HDMI transmitter IC being used, as well as the
+requirements of the application. It is important to carefully review the
+datasheets and reference designs for the devices in question to ensure
+compatibility and proper implementation.
+
+
+
+
+
+User
+
+can you list some common HDMI transmitter IC ?
+
+ChatGPT
+
+Sure, here are a few examples of common HDMI transmitter ICs that can be
+used with microcontrollers like the ATSAM devices to generate HDMI output:
+
+Silicon Image SiI9022A - a low-power HDMI transmitter with support
+for 1080p and 3D formats Analog Devices ADV7511 - a high-performance
+HDMI transmitter with support for 1080p, 3D, and Deep Color formats
+Intersil TW8836 - a multi-purpose video processor with HDMI transmitter
+functionality, capable of supporting various resolutions and formats Texas
+Instruments TFP410 - an HDMI transmitter with support for resolutions up
+to WUXGA (1920x1200) and various color depths Parade Technologies PS8402A
+- an HDMI 2.0 transmitter with support for 4K and HDR formats Note that
+this is not an exhaustive list, and there are many other HDMI transmitter
+ICs available on the market with varying levels of functionality and
+compatibility with different microcontroller platforms. It is important
+to carefully review the datasheets and reference designs for any ICs
+being considered for use in a specific application.
+
+
+
+
+
+User
+
+what's the cheapest one?
+
+ChatGPT
+
+The price of an HDMI transmitter IC can vary depending on several factors
+such as performance, features, and quantity. However, typically, the
+price of the HDMI transmitter ICs can range from a few dollars to tens
+of dollars.
+
+In terms of low-cost options, the Silicon Image SiI9022A is a relatively
+inexpensive HDMI transmitter IC that can be used with microcontrollers
+like the ATSAM devices. Its price typically ranges from $2 to $5 in small
+quantities. However, it's important to keep in mind that the final cost
+of the overall system will depend on other factors such as the cost of
+the microcontroller, PCB, and other components required for the design.
+
+
+
+
+
+User
+
+can the SiI9022A  take NTSC composite as an input?
+
+ChatGPT
+
+No, the Silicon Image SiI9022A HDMI transmitter IC does not have the
+capability to directly accept NTSC composite video as an input.
+
+The SiI9022A is designed to accept digital video data in the form of
+HDMI or DVI signals. It does not have an analog video input interface,
+such as composite or component video. Therefore, an analog-to-digital
+converter (ADC) would be required to convert the NTSC composite video
+signal into a digital format compatible with the SiI9022A.
+
+If you need to use NTSC composite video as an input, you may need to
+consider an alternative HDMI transmitter IC that includes an analog
+video input interface, or use an external ADC to convert the analog
+video signal to digital before feeding it into the SiI9022A.
+
+
+
+
+
+User
+
+can you name some inexpensive ones?
+
+ChatGPT
+
+Certainly, here are a few examples of HDMI transmitter ICs that have an
+analog video input interface and can be used with microcontrollers like
+the ATSAM devices:
+
+CH7026 - an HDMI transmitter IC with an integrated analog-to-digital
+converter (ADC) for composite and component video inputs. It supports
+resolutions up to 1080p and is available for under $5 in small quantities.
+
+IT6613 - an HDMI transmitter IC with support for analog composite and
+component video inputs through an external ADC. It supports resolutions
+up to 1080p and is available for under $4 in small quantities.
+
+ANX9021 - an HDMI transmitter IC with an integrated analog-to-digital
+converter (ADC) for composite and component video inputs. It supports
+resolutions up to 1080p and is available for under $5 in small quantities.
+
+Note that this is not an exhaustive list and there may be other HDMI
+transmitter ICs available that are inexpensive and support analog video
+inputs. It's important to review the datasheets and reference designs
+for any ICs being considered for use in a specific application to ensure
+compatibility and proper implementation.
