@@ -13,7 +13,8 @@ TIA Schematics      http://www.atariage.com/2600/archives/schematics_tia/
 Television notes    http://entertainment.howstuffworks.com/tv3.htm
 6532 manual         http://highgate.comm.sfu.ca/~rcini/classiccmp/my_docs.htm
 
-2600 on bradboard   https://chester.me/archives/2021/07/atari-2600-on-a-breadboard-part-iv-clock-composite-video-hello-world/
+2600 on breadboard  https://chester.me/archives/2021/07/atari-2600-on-a-breadboard-part-iv-clock-composite-video-hello-world/
+composite to HDMI   https://www.amazon.ca/Caxico-RCACVS-Composite-Converter-Blue-Ray/dp/B011E6GRPU
 
 =====
 = Clocks
